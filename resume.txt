@@ -59,11 +59,11 @@
 \begin{document}
 %----------HEADING----------
 \begin{center}
-    % \begin{tikzpicture}
-    %   \clip (0,0) circle (1.5cm); % circle radius = 2cm (diameter 4cm)
-    %   % Shift the image down by 0.5cm (adjust as needed)
-    %   \node at (0,-1cm) {\includegraphics[width=3cm,height=5cm,keepaspectratio]{photo.png}};
-    % \end{tikzpicture} \\[5mm]
+    \begin{tikzpicture}
+      \clip (0,0) circle (1.5cm); % circle radius = 2cm (diameter 4cm)
+      % Shift the image down by 0.5cm (adjust as needed)
+      \node at (0,-1cm) {\includegraphics[width=3cm,height=5cm,keepaspectratio]{photo.png}};
+    \end{tikzpicture} \\[5mm]
     {\Huge \scshape Sivlay Yi} \\[1mm]
     {\large \scshape Apply For: Backend Developer $|$ (Java \& Spring Boot)} \\[3mm]
     \small
@@ -91,32 +91,25 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-    {\textbf{Cam Info Services} \small \footnotesize $|$ \emph{\href{https://www.caminfoservices.com/}{\underline{Website}}} \small \footnotesize $|$ \emph{\href{https://web.facebook.com/CamInfoServices}{\underline{Facebook}}}}{July 2021 -- Present}
+    {\textbf{Cam Info Services} \small \footnotesize $|$ \emph{\href{https://www.caminfoservices.com/}{\underline{Website}}} \small \footnotesize $|$ \emph{\href{https://web.facebook.com/CamInfoServices}{\underline{Facebook}}}}{July 2018 -- Present}
     {Backend Developer}{Phnom Penh, Cambodia}
 \resumeItemListStart
-    \resumeItem{Designed and maintained scalable backend systems using \textbf{Java}, \textbf{Spring Boot}, and \textbf{RESTful APIs}, ensuring high performance and reliability across distributed microservices.}
-    \resumeItem{Architected modular service layers to streamline complex business logic and dependency management, improving maintainability and reducing project setup time by \textbf{37\%}.}
-    \resumeItem{Optimized data operations with \textbf{Spring Data JPA}, \textbf{Hibernate}, and \textbf{PostgreSQL}, reducing query latency by \textbf{25\%} and enhancing transactional consistency.}
-    \resumeItem{Containerized backend services using CI/CD pipelines,  Docker, deployed to \textbf{AWS EC2}, and scalability.}
-\resumeItemListEnd
-
-\resumeSubheading
-    {\textbf{Cam Info Services} \small \footnotesize $|$ \emph{\href{https://www.caminfoservices.com/}{\underline{Website}}} \small \footnotesize $|$ \emph{\href{https://web.facebook.com/CamInfoServices}{\underline{Facebook}}}}{June 2018 -- January 2021}
-    {Backend Developer}{Phnom Penh, Cambodia}
-\resumeItemListStart
-    \resumeItem{Developed core backend components and internal APIs using \textbf{Spring Boot}, \textbf{Spring Security}, and \textbf{RESTful services}, supporting multiple enterprise systems.}
-    \resumeItem{Implemented automated validation and reporting modules that reduced manual QA workload by \textbf{40\%}.}
-    \resumeItem{Optimized SQL queries and ORM mappings with \textbf{Hibernate}, improving response times by \textbf{30\%} on large datasets.}
-    \resumeItem{Collaborated with DevOps teams to migrate legacy systems to \textbf{AWS}, improving deployment reliability and reducing infrastructure costs.}
+    \resumeItem{Developed and maintained robust backend systems using \textbf{Java} and \textbf{Spring Boot}, delivering reliable and high-performance \textbf{RESTful APIs} for internal and government applications.}
+    \resumeItem{Designed and implemented \textbf{business logic layers} to handle complex workflows and ensure data integrity across multiple services.}
+    \resumeItem{Modeled and optimized relational databases with \textbf{MySQL,PostgreSQL}, improving query performance and ensuring consistent data structures.}
+    \resumeItem{Integrated \textbf{Spring Data JPA} and \textbf{Hibernate} to streamline database access, reducing manual SQL handling and improving maintainability.}
+    \resumeItem{Collaborated closely with frontend and mobile teams to define clear API contracts and support smooth system integration.}
 \resumeItemListEnd
 
 \resumeSubheading
     {\textbf{Cam Info Services} \small \footnotesize $|$ \emph{\href{https://www.caminfoservices.com/}{\underline{Website}}} \small \footnotesize $|$ \emph{\href{https://web.facebook.com/CamInfoServices}{\underline{Facebook}}}}{March 2018 -- May 2018}
     {Java Programmer Intern}{Phnom Penh, Cambodia}
 \resumeItemListStart
-    \resumeItem{Assisted in developing internal tools and automation features using \textbf{Spring Boot} and \textbf{MySQL}.}
-    \resumeItem{Supported data migration projects using \textbf{Spring Batch}, improving migration accuracy and reducing processing time.}
-    \resumeItem{Contributed to writing unit tests and debugging backend modules, gaining hands-on experience in enterprise Java development.}
+    \resumeItem{Assisted senior developers in building and maintaining backend services using \textbf{Java} and \textbf{Spring Boot}.}
+    \resumeItem{Supported database operations and wrote basic \textbf{SQL} queries for data retrieval and reporting tasks.}
+    \resumeItem{Implemented small modules and helper functions under supervision, improving code quality and maintainability.}
+    \resumeItem{Gained hands-on experience with version control using \textbf{Git} and participated in daily stand-up meetings.}
+    \resumeItem{Learned and applied best practices in clean coding, testing, and backend project structure.}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -190,8 +183,8 @@
 \textbf{Frameworks \& Libraries:} Spring Boot, Spring Security, Spring Data JPA, Hibernate, RESTful APIs, Gradle, Maven, Lombok \\[1mm]
 \textbf{Databases:} PostgreSQL, MySQL, MongoDB, Redis \\[1mm]
 \textbf{Cloud \& DevOps Tools:} AWS (EC2, S3, MinIO, Huawei, Lambda), Docker, Git, GitHub Actions, Jenkins, Flyway \\[1mm]
-\textbf{Developer Tools:} IntelliJ IDEA, Postman, Swagger, Jira, VS Code, Linux CLI \\[1mm]
-\textbf{Additional Skills:} OAuth2, JWT, Microservices Architecture, CI/CD, API Design, Unit Testing (JUnit, Mockito)
+\textbf{Developer Tools:} IntelliJ IDEA, GitHub, GitLab, SourceTree, Postman, Swagger, Jira, VS Code, Linux CLI \\[1mm]
+\textbf{Additional Skills:} OAuth2, JWT, Microservices Architecture, CI/CD, API Design, Database Design, Unit Testing (JUnit, Mockito)
 }}
 \end{itemize}
 \vspace{-10pt}
