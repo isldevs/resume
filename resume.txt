@@ -176,7 +176,26 @@
 \resumeItemListStart
     \resumeItem{Maintain and contribute to backend utilities and microservice templates in the \textbf{iSLDevs} organization.}
     \resumeItem{Prototype modern backend features: reactive APIs, monitoring, security enhancements, and integration tooling.}
+    \vspace{-15pt}
 \resumeItemListEnd
+
+\resumeProjectHeading
+    {\textbf{Attendance Sync} $|$ \emph{\href{https://github.com/isldevs/attendance-sync}{GitHub Source}}}{Java $|$ Spring Boot $|$ Fingerprint Device $|$ MySQL}
+\resumeItemListStart
+    \resumeItem{Developed a background service to \textbf{automatically sync attendance records} from a fingerprint device to the central system.}
+    \resumeItem{Implemented scheduled tasks and real-time validation to ensure \textbf{accurate and reliable data synchronization}.}
+    \resumeItem{Improved HR operational efficiency by reducing manual data entry and errors.}
+    \vspace{-15pt}
+\resumeItemListEnd
+
+\resumeProjectHeading
+    {\textbf{Telegram Bot Invoice Notifier} $|$ \emph{\href{https://github.com/isldevs/telegrambot}{GitHub Source}}}{Java $|$ Spring Boot $|$ Telegram API}
+\resumeItemListStart
+    \resumeItem{Built a \textbf{Telegram bot} to send digital invoices automatically after successful transactions.}
+    \resumeItem{Integrated backend services with \textbf{Telegram Bot API} to deliver instant notifications to customers.}
+    \resumeItem{Enhanced user experience and reduced manual communication for payment confirmations.}
+\resumeItemListEnd
+
 
 \resumeSubHeadingListEnd
 \vspace{-15pt}
