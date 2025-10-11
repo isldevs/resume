@@ -99,6 +99,7 @@
     \resumeItem{Modeled and optimized relational databases with \textbf{MySQL,PostgreSQL}, improving query performance and ensuring consistent data structures.}
     \resumeItem{Integrated \textbf{Spring Data JPA} and \textbf{Hibernate} to streamline database access, reducing manual SQL handling and improving maintainability.}
     \resumeItem{Collaborated closely with frontend and mobile teams to define clear API contracts and support smooth system integration.}
+    \vspace{2pt}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -110,6 +111,7 @@
     \resumeItem{Implemented small modules and helper functions under supervision, improving code quality and maintainability.}
     \resumeItem{Gained hands-on experience with version control using \textbf{Git} and participated in daily stand-up meetings.}
     \resumeItem{Learned and applied best practices in clean coding, testing, and backend project structure.}
+    \vspace{2pt}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -119,11 +121,13 @@
     \resumeItem{Provided technical support for hardware, software, and network systems across multiple departments.}
     \resumeItem{Assisted in system maintenance, data backups, and security audits to ensure business continuity.}
     \resumeItem{Documented troubleshooting procedures and supported IT infrastructure improvement initiatives.}
+    \vspace{2pt}
 \resumeItemListEnd
 
 \resumeSubheading
     {Phnom Penh International School}{February 2016 -- October 2016}
     {Cisco Routing and Switching Training Course}{Phnom Penh, Cambodia}
+\vspace{2pt}
 
 \resumeSubheading
     {Digital Works Khmer}{2015 -- 2016}
@@ -146,6 +150,7 @@
     \resumeItem{Architected and built a production-ready OAuth2 Authorization Server with support for multiple grant types, social login (Google, GitHub, Facebook), and JWTs with RSA encryption.}
     \resumeItem{Designed database versioning with \textbf{Flyway}, modular service structure for token, resource, and authorization logic, enabling maintainability and extensibility.}
     \resumeItem{Containerized with \textbf{Docker} and tested deployment on cloud environments for horizontal scaling and isolation.}
+    \vspace{-15pt}
 \resumeItemListEnd
 
 \resumeProjectHeading
@@ -153,15 +158,17 @@
 \resumeItemListStart
     \resumeItem{Developed core backend services for a nationwide COVID-19 tracking and reporting system used by government departments.}
     \resumeItem{Created secure RESTful APIs for data exchange among labs, health ministries, and public dashboards, ensuring privacy and integrity.}
-    \resumeItem{Optimized performance via indexing, caching, and asynchronous processing, improving throughput by over \textbf{40--45\%}.}
+    \resumeItem{Optimized performance via indexing, caching, and asynchronous processing.}
+    \vspace{-15pt}
 \resumeItemListEnd
 
 \resumeProjectHeading
     {\textbf{Enterprise Service Platform} $|$ \emph{Internal, Cam Info Services}}{Microservices $|$ Java $|$ Spring Boot}
 \resumeItemListStart
     \resumeItem{Built microservices for authentication, notification, and reporting modules supporting government workflows.}
-    \resumeItem{Leveraged \textbf{Redis caching} and asynchronous patterns to reduce response times by \textbf{~40\%}.}
+    \resumeItem{Leveraged \textbf{Caching} and asynchronous patterns to reduce response times.}
     \resumeItem{Coordinated integration with client systems and ensured robust API contracts for cross-team usage.}
+    \vspace{-15pt}
 \resumeItemListEnd
 
 \resumeProjectHeading
