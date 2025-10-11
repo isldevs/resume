@@ -74,7 +74,7 @@
   {Bachelor of Computer Science}{Phnom Penh, Cambodia}
 \resumeSubheading
   {Pak Klang High School}{Graduation: 2014}
-  {High School Diploma}{Phnom Penh, Cambodia}
+  {High School Diploma}{Koh Kong, Cambodia}
 \resumeSubHeadingListEnd
 \vspace{-5pt}
 
