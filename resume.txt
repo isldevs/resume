@@ -86,7 +86,7 @@
     {Cam Info Services}{July 2021 -- Present}
     {Backend Developer}{Phnom Penh, Cambodia}
 \resumeItemListStart
-    \resumeItem{Designed and maintained scalable backend systems using \textbf{Java 21}, \textbf{Spring Boot}, and \textbf{RESTful APIs}, ensuring high performance and reliability across distributed microservices.}
+    \resumeItem{Designed and maintained scalable backend systems using \textbf{Java}, \textbf{Spring Boot}, and \textbf{RESTful APIs}, ensuring high performance and reliability across distributed microservices.}
     \resumeItem{Architected modular service layers to streamline complex business logic and dependency management, improving maintainability and reducing project setup time by \textbf{37\%}.}
     \resumeItem{Optimized data operations with \textbf{Spring Data JPA}, \textbf{Hibernate}, and \textbf{PostgreSQL}, reducing query latency by \textbf{25\%} and enhancing transactional consistency.}
     \resumeItem{Implemented advanced text similarity and search logic (TF-IDF, cosine similarity) to detect duplicate software requirements and improve data quality.}
@@ -193,13 +193,12 @@
 \section{Online Presence}
 \begin{itemize}[leftmargin=0.15in, label={}]
 \small{
-\item{\faLinkedin\ \textbf{LinkedIn:} \href{https://www.linkedin.com/in/sivlayyi/}{linkedin.com/in/sivlayyi}}
 \item{\faGithub\ \textbf{GitHub:} \href{https://github.com/isldevs}{github.com/isldevs}}
+\item{\faLinkedin\ \textbf{LinkedIn:} \href{https://www.linkedin.com/in/sivlayyi/}{linkedin.com/in/sivlayyi}}
 \item{\faFacebook\ \textbf{Facebook:} \href{https://www.facebook.com/sivlayyi/}{facebook.com/sivlayyi}}
-\item{\faTiktok\ \textbf{TikTok:} \href{https://www.tiktok.com/__sivlay.yi__}{tiktok.com/__sivlay.yi__}}
-\item{\faTelegram\ \textbf{Telegram:} \href{https://t.me/@laydevcis}{t.me/laydevcis}}
 \item{\faYoutube\ \textbf{YouTube:} \href{https://www.youtube.com/@isldevs}{youtube.com/isldevs}}
 \item{\faXTwitter\ \textbf{X (Twitter):} \href{https://twitter.com/SivlayYi}{x.com/SivlayYi}}
+\item{\faTelegram\ \textbf{Telegram:} \href{https://t.me/@laydevcis}{t.me/laydevcis}}
 }
 \end{itemize}
 \vspace{-10pt}
