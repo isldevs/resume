@@ -1,0 +1,207 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.15in}
+\addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{0pt}}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}}
+\newcommand{\resumeProjectHeading}[2]{\item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------DOCUMENT-----------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Sivlay Yi} \\[1mm]
+    \small
+    \faPhone\ (+855) 884-777-754 ~
+    \faEnvelope\ sivlayyi.bs@gmail.com ~
+    \faLinkedin\ \href{https://www.linkedin.com/in/sivlayyi/}{linkedin.com/in/sivlayyi} \\
+    \hspace{1.5cm} \faGithub\ \href{https://github.com/isldevs}{github.com/isldevs} ~
+    \faFacebook\ \href{https://www.facebook.com/sivlayyi/}{facebook.com/sivlayyi}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {Royal University of Phnom Penh}{Graduation: 2018}
+  {Bachelor of Computer Science}{Phnom Penh, Cambodia}
+\resumeSubheading
+  {Pak Klang High School}{Graduation: 2014}
+  {High School Diploma}{Phnom Penh, Cambodia}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+    {Cam Info Services}{July 2021 -- Present}
+    {Backend Developer}{Phnom Penh, Cambodia}
+\resumeItemListStart
+    \resumeItem{Designed and maintained scalable backend systems using \textbf{Java 21}, \textbf{Spring Boot}, and \textbf{RESTful APIs}, ensuring high performance and reliability across distributed microservices.}
+    \resumeItem{Architected modular service layers to streamline complex business logic and dependency management, improving maintainability and reducing project setup time by \textbf{37\%}.}
+    \resumeItem{Optimized data operations with \textbf{Spring Data JPA}, \textbf{Hibernate}, and \textbf{PostgreSQL}, reducing query latency by \textbf{25\%} and enhancing transactional consistency.}
+    \resumeItem{Implemented advanced text similarity and search logic (TF-IDF, cosine similarity) to detect duplicate software requirements and improve data quality.}
+    \resumeItem{Containerized backend services using \textbf{Docker} and deployed to \textbf{AWS EC2}, collaborating with DevOps teams to improve CI/CD pipelines and scalability.}
+\resumeItemListEnd
+
+\resumeSubheading
+    {Cam Info Services}{June 2018 -- January 2021}
+    {Backend Developer}{Phnom Penh, Cambodia}
+\resumeItemListStart
+    \resumeItem{Developed core backend components and internal APIs using \textbf{Spring Boot}, \textbf{Spring Security}, and \textbf{RESTful services}, supporting multiple enterprise systems.}
+    \resumeItem{Implemented automated validation and reporting modules that reduced manual QA workload by \textbf{40\%}.}
+    \resumeItem{Optimized SQL queries and ORM mappings with \textbf{Hibernate}, improving response times by \textbf{30\%} on large datasets.}
+    \resumeItem{Collaborated with DevOps teams to migrate legacy systems to \textbf{AWS}, improving deployment reliability and reducing infrastructure costs.}
+\resumeItemListEnd
+
+\resumeSubheading
+    {Cam Info Services}{March 2018 -- May 2018}
+    {Java Programmer Intern}{Phnom Penh, Cambodia}
+\resumeItemListStart
+    \resumeItem{Assisted in developing internal tools and automation features using \textbf{Spring Boot} and \textbf{MySQL}.}
+    \resumeItem{Supported data migration projects using \textbf{Spring Batch}, improving migration accuracy and reducing processing time.}
+    \resumeItem{Contributed to writing unit tests and debugging backend modules, gaining hands-on experience in enterprise Java development.}
+\resumeItemListEnd
+
+\resumeSubheading
+    {AMK Microfinance Institution Plc (Head Office)}{December 2017 -- February 2018}
+    {IT Technical Support}{Phnom Penh, Cambodia}
+\resumeItemListStart
+    \resumeItem{Provided technical support for hardware, software, and network systems across multiple departments.}
+    \resumeItem{Assisted in system maintenance, data backups, and security audits to ensure business continuity.}
+    \resumeItem{Documented troubleshooting procedures and supported IT infrastructure improvement initiatives.}
+\resumeItemListEnd
+
+\resumeSubheading
+    {Phnom Penh International School}{February 2016 -- October 2016}
+    {Cisco Routing and Switching Training Course}{Phnom Penh, Cambodia}
+
+\resumeSubheading
+    {Digital Works Khmer}{2015 -- 2016}
+    {3D Animation Artist}{Phnom Penh, Cambodia}
+\resumeItemListStart
+    \resumeItem{Created 3D animation assets and motion graphics for commercial and educational projects using \textbf{Autodesk Maya} and \textbf{Adobe After Effects}.}
+    \resumeItem{Collaborated with creative teams to design visual concepts aligned with client objectives and production timelines.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+    {\textbf{iSLDevs} $|$ \emph{\href{https://github.com/isldevs/isldevs}{GitHub Source}}}{Java 25 $|$ Spring Boot 3.5.6 $|$ PostgreSQL $|$ OAuth2 $|$ Docker}
+\resumeItemListStart
+    \resumeItem{Architected and built a production-ready OAuth2 Authorization Server with support for multiple grant types, social login (Google, GitHub, Facebook), and JWTs with RSA encryption.}
+    \resumeItem{Designed database versioning with \textbf{Flyway}, modular service structure for token, resource, and authorization logic, enabling maintainability and extensibility.}
+    \resumeItem{Containerized with \textbf{Docker} and tested deployment on cloud environments for horizontal scaling and isolation.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+    {\textbf{Government COVID-19 Information System} $|$ \emph{(Internal at Cam Info Services \href{https://www.caminfoservices.com/}{caminfoservices.com}, Facebook: \href{https://www.facebook.com/CamInfoServices}{Cam Info Services})}}{Java $|$ Spring Boot $|$ PostgreSQL $|$ Angular $|$ AWS}
+\resumeItemListStart
+    \resumeItem{Developed core backend services for a nationwide COVID-19 tracking and reporting system used by government departments.}
+    \resumeItem{Created secure RESTful APIs for data exchange among labs, health ministries, and public dashboards, ensuring privacy and integrity.}
+    \resumeItem{Optimized performance via indexing, caching, and asynchronous processing, improving throughput by over \textbf{40--45\%}.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+    {\textbf{Enterprise Service Platform} $|$ \emph{Internal, Cam Info Services}}{Microservices $|$ Java $|$ Spring Boot $|$ Redis $|$ Docker}
+\resumeItemListStart
+    \resumeItem{Built microservices for authentication, notification, and reporting modules supporting government workflows.}
+    \resumeItem{Leveraged \textbf{Redis caching} and asynchronous patterns to reduce response times by \textbf{~40\%}.}
+    \resumeItem{Coordinated integration with client systems and ensured robust API contracts for cross-team usage.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+    {\textbf{Personal \& Open-Source Projects} $|$ \emph{\href{https://github.com/isldevs}{GitHub: isldevs org}}}{Java $|$ Spring Boot $|$ Docker}
+\resumeItemListStart
+    \resumeItem{Maintain and contribute to backend utilities and microservice templates in the \textbf{iSLDevs} organization.}
+    \resumeItem{Prototype modern backend features: reactive APIs, monitoring, security enhancements, and integration tooling.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{
+\item{
+\textbf{Languages:} Java, C, C++, SQL, Bash \\[1mm]
+\textbf{Frameworks \& Libraries:} Spring Boot, Spring Security, Spring Data JPA, Hibernate, RESTful APIs, Gradle, Maven, Lombok \\[1mm]
+\textbf{Databases:} PostgreSQL, MySQL, MongoDB, Redis \\[1mm]
+\textbf{Cloud \& DevOps Tools:} AWS (EC2, S3, MinIO, Huawei, Lambda), Docker, Git, GitHub Actions, Jenkins, Flyway \\[1mm]
+\textbf{Developer Tools:} IntelliJ IDEA, Postman, Swagger, Jira, VS Code, Linux CLI \\[1mm]
+\textbf{Additional Skills:} OAuth2, JWT, Microservices Architecture, CI/CD, API Design, Unit Testing (JUnit, Mockito)
+}}
+\end{itemize}
+\vspace{-10pt}
+
+%-----------SOCIAL MEDIA / ONLINE PRESENCE-----------
+\section{Online Presence}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{
+\item{\faLinkedin\ \textbf{LinkedIn:} \href{https://www.linkedin.com/in/sivlayyi/}{linkedin.com/in/sivlayyi}}
+\item{\faGithub\ \textbf{GitHub:} \href{https://github.com/isldevs}{github.com/isldevs}}
+\item{\faFacebook\ \textbf{Facebook:} \href{https://www.facebook.com/sivlayyi/}{facebook.com/sivlayyi}}
+\item{\faTiktok\ \textbf{TikTok:} \href{https://www.tiktok.com/__sivlay.yi__}{tiktok.com/__sivlay.yi__}}
+\item{\faTelegram\ \textbf{Telegram:} \href{https://t.me/@laydevcis}{t.me/laydevcis}}
+\item{\faYoutube\ \textbf{YouTube:} \href{https://www.youtube.com/@isldevs}{youtube.com/isldevs}}
+\item{\faXTwitter\ \textbf{X (Twitter):} \href{https://twitter.com/SivlayYi}{x.com/SivlayYi}}
+}
+\end{itemize}
+\vspace{-10pt}
+
+\end{document}
