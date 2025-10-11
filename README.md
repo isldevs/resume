@@ -10,7 +10,7 @@ The CV template includes:
 
 - Education  
 - Work Experience  
-- Projects (personal and internal for Cam Info Services)  
+- Projects
 - Technical Skills  
 - Online Presence / Social Media  
 
@@ -58,6 +58,4 @@ You can update your CV easily:
 - **Online Presence:** Add social links using `\fa...` icons from `fontawesome5`.
 
 ---
-
-## 📁 Folder Structure
 
