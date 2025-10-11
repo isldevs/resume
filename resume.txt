@@ -17,6 +17,9 @@
 \setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
 \usepackage[margin=1.4cm]{geometry}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xcolor}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -54,10 +57,15 @@
 
 %-----------DOCUMENT-----------
 \begin{document}
-
 %----------HEADING----------
 \begin{center}
-    {\Large \scshape Sivlay Yi} \\[1mm]
+    % \begin{tikzpicture}
+    %   \clip (0,0) circle (1.5cm); % circle radius = 2cm (diameter 4cm)
+    %   % Shift the image down by 0.5cm (adjust as needed)
+    %   \node at (0,-1cm) {\includegraphics[width=3cm,height=5cm,keepaspectratio]{photo.png}};
+    % \end{tikzpicture} \\[5mm]
+    {\Huge \scshape Sivlay Yi} \\[1mm]
+    {\large \scshape Apply For: Backend Developer $|$ (Java \& Spring Boot)} \\[3mm]
     \small
     \faPhone\ (+855) 884-777-754 ~
     \faEnvelope\ sivlayyi.bs@gmail.com ~
@@ -83,18 +91,17 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-    {Cam Info Services}{July 2021 -- Present}
+    {\textbf{Cam Info Services} \small \footnotesize $|$ \emph{\href{https://www.caminfoservices.com/}{\underline{Website}}} \small \footnotesize $|$ \emph{\href{https://web.facebook.com/CamInfoServices}{\underline{Facebook}}}}{July 2021 -- Present}
     {Backend Developer}{Phnom Penh, Cambodia}
 \resumeItemListStart
     \resumeItem{Designed and maintained scalable backend systems using \textbf{Java}, \textbf{Spring Boot}, and \textbf{RESTful APIs}, ensuring high performance and reliability across distributed microservices.}
     \resumeItem{Architected modular service layers to streamline complex business logic and dependency management, improving maintainability and reducing project setup time by \textbf{37\%}.}
     \resumeItem{Optimized data operations with \textbf{Spring Data JPA}, \textbf{Hibernate}, and \textbf{PostgreSQL}, reducing query latency by \textbf{25\%} and enhancing transactional consistency.}
-    \resumeItem{Implemented advanced text similarity and search logic (TF-IDF, cosine similarity) to detect duplicate software requirements and improve data quality.}
-    \resumeItem{Containerized backend services using \textbf{Docker} and deployed to \textbf{AWS EC2}, collaborating with DevOps teams to improve CI/CD pipelines and scalability.}
+    \resumeItem{Containerized backend services using CI/CD pipelines,  Docker, deployed to \textbf{AWS EC2}, and scalability.}
 \resumeItemListEnd
 
 \resumeSubheading
-    {Cam Info Services}{June 2018 -- January 2021}
+    {\textbf{Cam Info Services} \small \footnotesize $|$ \emph{\href{https://www.caminfoservices.com/}{\underline{Website}}} \small \footnotesize $|$ \emph{\href{https://web.facebook.com/CamInfoServices}{\underline{Facebook}}}}{June 2018 -- January 2021}
     {Backend Developer}{Phnom Penh, Cambodia}
 \resumeItemListStart
     \resumeItem{Developed core backend components and internal APIs using \textbf{Spring Boot}, \textbf{Spring Security}, and \textbf{RESTful services}, supporting multiple enterprise systems.}
@@ -104,7 +111,7 @@
 \resumeItemListEnd
 
 \resumeSubheading
-    {Cam Info Services}{March 2018 -- May 2018}
+    {\textbf{Cam Info Services} \small \footnotesize $|$ \emph{\href{https://www.caminfoservices.com/}{\underline{Website}}} \small \footnotesize $|$ \emph{\href{https://web.facebook.com/CamInfoServices}{\underline{Facebook}}}}{March 2018 -- May 2018}
     {Java Programmer Intern}{Phnom Penh, Cambodia}
 \resumeItemListStart
     \resumeItem{Assisted in developing internal tools and automation features using \textbf{Spring Boot} and \textbf{MySQL}.}
@@ -149,7 +156,7 @@
 \resumeItemListEnd
 
 \resumeProjectHeading
-    {\textbf{Government COVID-19 Information System} $|$ \emph{(Internal at Cam Info Services \href{https://www.caminfoservices.com/}{caminfoservices.com}, Facebook: \href{https://www.facebook.com/CamInfoServices}{Cam Info Services})}}{Java $|$ Spring Boot $|$ PostgreSQL $|$ Angular $|$ AWS}
+    {\textbf{Government COVID-19 Information System \small \footnotesize $|$ \emph{\href{https://cv.modkh.org}{\underline{Website}}}}}{Java $|$ Spring Boot $|$ PostgreSQL $|$ Angular $|$ AWS}
 \resumeItemListStart
     \resumeItem{Developed core backend services for a nationwide COVID-19 tracking and reporting system used by government departments.}
     \resumeItem{Created secure RESTful APIs for data exchange among labs, health ministries, and public dashboards, ensuring privacy and integrity.}
@@ -157,7 +164,7 @@
 \resumeItemListEnd
 
 \resumeProjectHeading
-    {\textbf{Enterprise Service Platform} $|$ \emph{Internal, Cam Info Services}}{Microservices $|$ Java $|$ Spring Boot $|$ Redis $|$ Docker}
+    {\textbf{Enterprise Service Platform} $|$ \emph{Internal, Cam Info Services}}{Microservices $|$ Java $|$ Spring Boot}
 \resumeItemListStart
     \resumeItem{Built microservices for authentication, notification, and reporting modules supporting government workflows.}
     \resumeItem{Leveraged \textbf{Redis caching} and asynchronous patterns to reduce response times by \textbf{~40\%}.}
@@ -165,7 +172,7 @@
 \resumeItemListEnd
 
 \resumeProjectHeading
-    {\textbf{Personal \& Open-Source Projects} $|$ \emph{\href{https://github.com/isldevs}{GitHub: isldevs org}}}{Java $|$ Spring Boot $|$ Docker}
+    {\textbf{Personal \& Open-Source Projects} $|$ \emph{\href{https://github.com/isldevs}{GitHub Source}}}{Microservices $|$ Java $|$ Spring Boot $|$ Docker}
 \resumeItemListStart
     \resumeItem{Maintain and contribute to backend utilities and microservice templates in the \textbf{iSLDevs} organization.}
     \resumeItem{Prototype modern backend features: reactive APIs, monitoring, security enhancements, and integration tooling.}
