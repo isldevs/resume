@@ -59,11 +59,11 @@
 \begin{document}
 %----------HEADING----------
 \begin{center}
-    \begin{tikzpicture}
-      \clip (0,0) circle (1.5cm); % circle radius = 2cm (diameter 4cm)
-      % Shift the image down by 0.5cm (adjust as needed)
-      \node at (0,-1cm) {\includegraphics[width=3cm,height=5cm,keepaspectratio]{photo.png}};
-    \end{tikzpicture} \\[5mm]
+    % \begin{tikzpicture}
+    %   \clip (0,0) circle (1.5cm); % circle radius = 2cm (diameter 4cm)
+    %   % Shift the image down by 0.5cm (adjust as needed)
+    %   \node at (0,-1cm) {\includegraphics[width=3cm,height=5cm,keepaspectratio]{photo.png}};
+    % \end{tikzpicture} \\[5mm]
     {\Huge \scshape Sivlay Yi} \\[1mm]
     {\large \scshape Apply For: Backend Developer $|$ (Java \& Spring Boot)} \\[3mm]
     \small
@@ -141,7 +141,7 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-    {\textbf{iSLDevs} $|$ \emph{\href{https://github.com/isldevs/isldevs}{GitHub Source}}}{Java 25 $|$ Spring Boot 3.5.6 $|$ PostgreSQL $|$ OAuth2 $|$ Docker}
+    {\textbf{iSLDevs} $|$ \small \footnotesize \emph{\href{https://github.com/isldevs/isldevs}{\underline{GitHub Source}}}}{Java 25 $|$ Spring Boot 3.5.6 $|$ PostgreSQL $|$ OAuth2 $|$ Docker}
 \resumeItemListStart
     \resumeItem{Architected and built a production-ready OAuth2 Authorization Server with support for multiple grant types, social login (Google, GitHub, Facebook), and JWTs with RSA encryption.}
     \resumeItem{Designed database versioning with \textbf{Flyway}, modular service structure for token, resource, and authorization logic, enabling maintainability and extensibility.}
@@ -165,7 +165,7 @@
 \resumeItemListEnd
 
 \resumeProjectHeading
-    {\textbf{Personal \& Open-Source Projects} $|$ \emph{\href{https://github.com/isldevs}{GitHub Source}}}{Microservices $|$ Java $|$ Spring Boot $|$ Docker}
+    {\textbf{Personal \& Open-Source Projects} $|$ \small \footnotesize \emph{\href{https://github.com/isldevs}{\underline{GitHub Source}}}}{Microservices $|$ Java $|$ Spring Boot $|$ Docker}
 \resumeItemListStart
     \resumeItem{Maintain and contribute to backend utilities and microservice templates in the \textbf{iSLDevs} organization.}
     \resumeItem{Prototype modern backend features: reactive APIs, monitoring, security enhancements, and integration tooling.}
