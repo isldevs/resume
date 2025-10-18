@@ -1,0 +1,66 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage[margin=1.4cm]{geometry}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+
+\setstretch{1.15}
+
+%-----------BEGIN DOCUMENT-----------
+\begin{document}
+
+%-----------HEADER-----------
+\noindent
+{\Large \bfseries Sivlay Yi} \\
+[Street 58P, Sen Sok] \\
+[Phnom Penh, Cambodia] \\[6pt]
+
+\vspace{1.2cm}
+
+%-----------RECIPIENT-----------
+\noindent
+\textbf{[Hiring Manager’s Name]} \\
+[Company Name] \\
+[Company Address] \\
+[City, Country] \\[6pt]
+\textbf{Date:} \today
+
+\vspace{0.8cm}
+
+%-----------LETTER BODY-----------
+\noindent
+Dear \textbf{[Hiring Manager’s Name]},
+
+\vspace{0.3cm}
+
+I’m excited to apply for the \textbf{Backend Developer} position at [Company Name]. With several years of professional experience in Java and Spring Boot, I’ve designed and built backend systems that power real-world applications for internal and government use. My focus has always been on writing clean, maintainable code that’s scalable and reliable.
+
+At Cam Info Services, I worked on developing RESTful APIs, integrating Spring Data JPA with MySQL and PostgreSQL, and optimizing backend performance for critical systems. I collaborated closely with frontend and mobile teams to ensure smooth integration and a strong API contract. My work often involves turning complex business rules into simple, stable backend services that other teams can confidently build upon.
+
+I’m particularly drawn to [Company Name] because of [specific reason — e.g., its mission, products, engineering culture, or technical challenges]. I value building systems that make an impact, and I see a strong match between your goals and my experience with Spring Boot, microservices, security, and modern backend best practices.
+
+I’d welcome the chance to bring my backend development skills and collaborative mindset to your team. Thank you for taking the time to review my application. I look forward to the opportunity to discuss how I can contribute to [Company Name].
+
+\vspace{0.8cm}
+Sincerely,\\[3cm]
+\textbf{Sivlay Yi}
+
+\end{document}
