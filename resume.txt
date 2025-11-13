@@ -163,7 +163,7 @@
 \resumeProjectHeading
     {\href{https://qt.com.kh/home-page}{QuickTax (Taxation Compliance Service System)}}{\href{https://www.caminfoservices.com/}{Cam Info Services}}
 \resumeItemListStart
-    \resumeItem{Developed backend services to handle various tax payments: patent tax, stamp tax, monthly tax (small, medium, large), and annual tax (small, medium, large).}
+    \resumeItem{Developed backend services to handle: Patent Tax, Stamp Tax, Monthly Tax (small, medium, large), and Annual Tax (small, medium, large).}
     \resumeItem{Implemented multi-bank payment processing for secure and reliable tax transactions.}
     \resumeItem{Designed automated workflows for data import, report generation, and eFiling to streamline tax compliance.}
     \resumeItem{Modeled and optimized relational databases to store accounting, tax, and payment data securely and efficiently.}
