@@ -7,7 +7,7 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{enumitem}
 \usepackage[colorlinks=true, urlcolor=blue, linkcolor=black, citecolor=black]{hyperref}
-\useunder{\uline}{\ulined}{}
+\useunder{\uline}{\ulined}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -34,7 +34,10 @@
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+% Reduce spacing slightly
+\setlength{\parskip}{1pt}
+
+\titleformat{\section}{\vspace{-6pt}\scshape\raggedright\large\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
 \pdfgentounicode=1
 
 %-------------------------
@@ -50,9 +53,9 @@
       \small#1 & \textbf{\small #2}\\
     \end{tabular*}\vspace{-5pt}}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-6pt}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
 
 %-----------DOCUMENT-----------
 \begin{document}
@@ -60,18 +63,27 @@
 %----------HEADING----------
 \begin{center}
     \begin{tikzpicture}
-      \clip (0,0) circle (2cm); % circle radius = 2cm (diameter 4cm)
-      % Shift the image down by 0.5cm (adjust as needed)
-      \node at (0,-1cm) {\includegraphics[width=3cm,height=3cm,keepaspectratio]{photo.png}};
+      \clip (0,0) circle (2cm); % circle radius = 2cm
+      \node at (0,-1cm) {\includegraphics[width=3cm,height=4cm,keepaspectratio]{photo.png}};
     \end{tikzpicture} \\[5mm]
+
     {\Huge \scshape Sivlay Yi} \\[1mm]
-    {\large \scshape Senior Backend Developer | Java \& Spring Boot} \\[3mm]
+    {\large \scshape Senior Backend Developer | Java \& Spring Boot} \\[4mm]
+
+    % Contact icons only (larger size)
     \small
-    \faPhone\ \href{tel:+855884777754}{(+855) 884-777-754} ~
-    \faEnvelope\ \href{mailto:sivlayyi.bs@gmail.com}{sivlayyi.bs@gmail.com} ~
-    \faLinkedin\ \href{https://www.linkedin.com/in/sivlayyi/}{linkedin.com/in/sivlayyi} \\ ~
-    \faTelegram\ \href{https://t.me/laydevcis}{t.me/laydevcis}
+    {\href{tel:+855884777754}{\raisebox{-0.2ex}{\faPhone[regular,scale=1.4]}}} \hspace{10pt}
+    {\href{mailto:sivlayyi.bs@gmail.com}{\raisebox{-0.2ex}{\faEnvelope[regular,scale=1.4]}}} \hspace{10pt}
+    {\href{https://www.linkedin.com/in/sivlayyi/}{\raisebox{-0.2ex}{\faLinkedin[scale=1.4]}}} \hspace{10pt}
+    {\href{https://t.me/laydevcis}{\raisebox{-0.2ex}{\faTelegram[scale=1.4]}}}\hspace{10pt}
+    {\href{https://facebook.com/sivlayyi}{\raisebox{-0.2ex}{\faFacebook[scale=1.4]}}}
 \end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+As Backend Developer specializing in Java and Spring Boot with almost 8 years of experience building high-performance backend systems for government and enterprise applications. Skilled in designing RESTful APIs, database modeling, and system integrations. Strong focus on clean architecture, scalability, and maintainability. Proven ability to collaborate across teams and deliver production-grade solutions under tight timelines.
+
+\vspace{1pt}
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -83,6 +95,8 @@
   {Pak Klang High School}{Graduation: 2014}
   {High School Diploma}{Koh Kong, Cambodia}
 \resumeSubHeadingListEnd
+
+\vspace{1pt}
 
 %-----------WORK EXPERIENCE-----------
 \section{Work Experience}
@@ -97,8 +111,9 @@
     \resumeItem{Modeled and optimized relational databases (\textbf{MySQL, PostgreSQL}) for performance and maintainability.}
     \resumeItem{Implemented \textbf{Spring Data JPA} and \textbf{Hibernate} to streamline database access and reduce boilerplate code.}
     \resumeItem{Led API integrations with frontend and mobile teams, ensuring smooth system interoperability.}
-    \resumeItem{Participated in DevOps pipelines, CI/CD, containerization (\textbf{Docker}), and cloud deployment on AWS.}
 \resumeItemListEnd
+
+\vspace{10pt}
 
 \resumeSubheading
     {\href{https://www.caminfoservices.com/}{Cam Info Services}}{March 2018 -- May 2018}
@@ -108,6 +123,8 @@
     \resumeItem{Implemented modules under supervision, following clean code and testing best practices.}
     \resumeItem{Worked with Git for version control.}
 \resumeItemListEnd
+
+\vspace{10pt}
 
 \resumeSubheading
     {AMK Microfinance Institution Plc}{December 2017 -- February 2018}
@@ -135,7 +152,7 @@
     \resumeItem{Created comprehensive development references and guides for Gradle, Spring Boot, Redis, and Jenkins integration.}
 \resumeItemListEnd
 
-\vspace{3pt}
+\vspace{-10pt}
 
 \resumeProjectHeading
     {\href{https://github.com/isldevs/attendance-sync}{Attendance Sync}}{\href{https://github.com/isldevs/attendance-sync}{GitHub}}
@@ -144,12 +161,16 @@
     \resumeItem{Implemented scheduled tasks and real-time validation to ensure accurate data synchronization.}
 \resumeItemListEnd
 
+\vspace{-10pt}
+
 \resumeProjectHeading
     {\href{https://github.com/isldevs/telegrambot}{Telegram Bot Invoice Notifier}}{\href{https://github.com/isldevs/telegrambot}{GitHub}}
 \resumeItemListStart
     \resumeItem{Built a Telegram bot to send automatic invoice notifications after successful transactions.}
     \resumeItem{Integrated backend services with Telegram API for real-time customer notifications.}
 \resumeItemListEnd
+
+\vspace{-10pt}
 
 %-------- Company / Internal Projects --------
 \resumeProjectHeading
@@ -159,6 +180,8 @@
     \resumeItem{Created secure RESTful APIs for labs, ministries, and public dashboards, ensuring data privacy and integrity.}
     \resumeItem{Optimized system performance via caching, indexing, and asynchronous processing.}
 \resumeItemListEnd
+
+\vspace{-10pt}
 
 \resumeProjectHeading
     {\href{https://qt.com.kh/home-page}{QuickTax (Taxation Compliance Service System)}}{\href{https://www.caminfoservices.com/}{Cam Info Services}}
@@ -171,13 +194,16 @@
     \resumeItem{Maintained performance, reliability, and security of the platform, supporting high volumes of concurrent tax transactions.}
 \resumeItemListEnd
 
+\vspace{-20pt}
+
 \resumeProjectHeading
     {\textbf{Enterprise Service Platforms}}{\href{https://www.caminfoservices.com/}{Cam Info Services}}
 \resumeItemListStart
     \resumeItem{Contributed to multiple private/internal projects at Cam Info Services, focusing on backend development, microservices architecture, and database management.}
 \resumeItemListEnd
-
 \resumeSubHeadingListEnd
+
+\vspace{1pt}
 
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
@@ -195,14 +221,15 @@
 
 %-----------ONLINE PRESENCE-----------
 \section{Online Presence}
-\begin{itemize}[leftmargin=0.15in, label={}]
-\small{
-\item{\faPhone\ \href{tel:+855884777754}{(+855) 884-777-754}}
-\item{\faGithub\ \textbf{GitHub:} \href{https://github.com/isldevs}{github.com/isldevs}}
-\item{\faEnvelope\ \textbf{Email:} \href{mailto:sivlayyi.bs@gmail.com}{sivlayyi.bs@gmail.com}}
-\item{\faLinkedin\ \textbf{LinkedIn:} \href{https://www.linkedin.com/in/sivlayyi/}{linkedin.com/in/sivlayyi}}
-\item{\faTelegram\ \textbf{Telegram:} \href{https://t.me/laydevcis}{t.me/laydevcis}}
-}
-\end{itemize}
+\vspace{-1pt}
+\begin{center}
+    \small
+    \href{tel:+855884777754}{\raisebox{-0.2ex}{\faPhone[regular,scale=1.4]}} \hspace{8pt}
+    \href{mailto:sivlayyi.bs@gmail.com}{\raisebox{-0.2ex}{\faEnvelope[regular,scale=1.4]}} \hspace{8pt}
+    \href{https://github.com/isldevs}{\raisebox{-0.2ex}{\faGithub[scale=1.4]}} \hspace{8pt}
+    \href{https://www.linkedin.com/in/sivlayyi/}{\raisebox{-0.2ex}{\faLinkedin[scale=1.4]}} \hspace{8pt}
+    \href{https://t.me/laydevcis}{\raisebox{-0.2ex}{\faTelegram[scale=1.4]}} \hspace{8pt}
+    \href{https://facebook.com/sivlayyi}{\raisebox{-0.2ex}{\faFacebook[scale=1.4]}}
+\end{center}
 
 \end{document}
