@@ -187,7 +187,7 @@
 \textbf{Languages:} Java, SQL, C, C++, Bash \\
 \textbf{Frameworks:} Spring Boot, Spring Security, Spring Data JPA, Hibernate, RESTful APIs, Maven, Gradle, Lombok \\
 \textbf{Databases:} PostgreSQL, MySQL, Redis \\
-\textbf{Cloud \& DevOps:} AWS (EC2, S3, Lambda), Docker, GitLab, GitHub Actions, Jenkins, Flyway \\
+\textbf{Cloud \& DevOps:} AWS (EC2, S3, Lambda), Huawei Cloud(OBS), MinIO Object Store, Docker, GitLab, GitHub Actions, Jenkins, Flyway \\
 \textbf{Tools:} IntelliJ IDEA, VS Code, Postman, Git, SourceTree, Linux CLI \\
 \textbf{Other Skills:} Microservices, OAuth2, JWT, CI/CD, API Design, Database Design, Unit Testing (JUnit, Mockito)
 }}
