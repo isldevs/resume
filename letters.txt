@@ -2,6 +2,7 @@
 
 \usepackage[empty]{fullpage}
 \usepackage[usenames,dvipsnames]{color}
+\usepackage[usenames,dvipsnames]{color}
 \usepackage{titlesec}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
@@ -51,13 +52,13 @@ Dear \textbf{[Hiring Manager’s Name]},
 
 \vspace{0.3cm}
 
-I’m excited to apply for the \textbf{Backend Developer} position at [Company Name]. With several years of professional experience in Java and Spring Boot, I’ve designed and built backend systems that power real-world applications for internal and government use. My focus has always been on writing clean, maintainable code that’s scalable and reliable.
+I am excited to apply for the \textbf{Backend Developer} position at [Company Name]. With several years of professional experience in Java and Spring Boot, I have designed and built backend systems that power both internal enterprise applications and government projects. My work focuses on creating clean, maintainable, and scalable code that other teams can rely on.
 
-At Cam Info Services, I worked on developing RESTful APIs, integrating Spring Data JPA with MySQL and PostgreSQL, and optimizing backend performance for critical systems. I collaborated closely with frontend and mobile teams to ensure smooth integration and a strong API contract. My work often involves turning complex business rules into simple, stable backend services that other teams can confidently build upon.
+At Cam Info Services, I developed RESTful APIs, optimized databases using MySQL and PostgreSQL, and implemented Spring Data JPA and Hibernate to streamline data access. I collaborated closely with frontend and mobile teams, ensuring smooth integrations and strong API contracts. Additionally, I contributed to critical systems such as Cambodia’s COVID-19 Information System and multiple enterprise platforms, applying caching, asynchronous processing, and secure backend design to meet high-demand use cases.
 
-I’m particularly drawn to [Company Name] because of [specific reason — e.g., its mission, products, engineering culture, or technical challenges]. I value building systems that make an impact, and I see a strong match between your goals and my experience with Spring Boot, microservices, security, and modern backend best practices.
+I am particularly drawn to [Company Name] because of [specific reason — e.g., its mission, products, engineering culture, or technical challenges]. I am eager to apply my experience in Spring Boot, microservices, and backend architecture to deliver reliable and efficient solutions that make a real impact.
 
-I’d welcome the chance to bring my backend development skills and collaborative mindset to your team. Thank you for taking the time to review my application. I look forward to the opportunity to discuss how I can contribute to [Company Name].
+I would welcome the opportunity to bring my skills, experience, and collaborative approach to your team. Thank you for considering my application, and I look forward to the possibility of discussing how I can contribute to [Company Name].
 
 \vspace{0.8cm}
 Sincerely,\\[3cm]
