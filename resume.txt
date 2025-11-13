@@ -6,7 +6,8 @@
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=black, citecolor=black]{hyperref}
+\useunder{\uline}{\ulined}{}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -88,7 +89,7 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-    {\textbf{Cam Info Services} | \href{https://www.caminfoservices.com/}{Website}}{July 2018 -- Present}
+    {\href{https://www.caminfoservices.com/}{Cam Info Services}}{July 2018 -- Present}
     {Senior Backend Developer}{Phnom Penh, Cambodia}
 \resumeItemListStart
     \resumeItem{Designed and maintained scalable backend services using \textbf{Java} and \textbf{Spring Boot}, delivering high-performance \textbf{RESTful APIs} for government and enterprise applications.}
@@ -100,7 +101,7 @@
 \resumeItemListEnd
 
 \resumeSubheading
-    {\textbf{Cam Info Services}}{March 2018 -- May 2018}
+    {\href{https://www.caminfoservices.com/}{Cam Info Services}}{March 2018 -- May 2018}
     {Java Programmer Intern}{Phnom Penh, Cambodia}
 \resumeItemListStart
     \resumeItem{Assisted in backend development and database operations using \textbf{Java, Spring Boot, MySQL/PostgreSQL}.}
@@ -123,7 +124,7 @@
 
 %-------- Personal Projects --------
 \resumeProjectHeading
-    {\textbf{iSLDevs} | \href{https://github.com/isldevs/isldevs}{GitHub}}{Open Source}
+    {\href{https://github.com/isldevs/isldevs}{iSLDevs}}{\href{https://github.com/isldevs/isldevs}{GitHub}}
 \resumeItemListStart
     \resumeItem{Developed a production-ready OAuth2 Authorization Server supporting multiple grant types, social login, and JWT/RSA encryption.}
     \resumeItem{Configured project for containerized deployment using Docker and lightweight OCI images.}
@@ -137,14 +138,14 @@
 \vspace{3pt}
 
 \resumeProjectHeading
-    {\textbf{Attendance Sync} | \href{https://github.com/isldevs/attendance-sync}{GitHub}}{Open Source}
+    {\href{https://github.com/isldevs/attendance-sync}{Attendance Sync}}{\href{https://github.com/isldevs/attendance-sync}{GitHub}}
 \resumeItemListStart
     \resumeItem{Developed a background service to automatically sync attendance records from devices to central system.}
     \resumeItem{Implemented scheduled tasks and real-time validation to ensure accurate data synchronization.}
 \resumeItemListEnd
 
 \resumeProjectHeading
-    {\textbf{Telegram Bot Invoice Notifier} | \href{https://github.com/isldevs/telegrambot}{GitHub}}{Open Source}
+    {\href{https://github.com/isldevs/telegrambot}{Telegram Bot Invoice Notifier}}{\href{https://github.com/isldevs/telegrambot}{GitHub}}
 \resumeItemListStart
     \resumeItem{Built a Telegram bot to send automatic invoice notifications after successful transactions.}
     \resumeItem{Integrated backend services with Telegram API for real-time customer notifications.}
@@ -152,7 +153,7 @@
 
 %-------- Company / Internal Projects --------
 \resumeProjectHeading
-    {\textbf{Government COVID-19 Information System} | \href{https://cv.modkh.org}{Website}}{Cam Info Services}
+    {\href{https://cv.modkh.org}{Government COVID-19 Information System}}{\href{https://www.caminfoservices.com/}{Cam Info Services}}
 \resumeItemListStart
     \resumeItem{Volunteered to develop backend services for Cambodia's nationwide COVID-19 vaccination and tracking system in cooperation with the Ministry of Defense and integration with the Ministry of Health.}
     \resumeItem{Created secure RESTful APIs for labs, ministries, and public dashboards, ensuring data privacy and integrity.}
@@ -160,7 +161,7 @@
 \resumeItemListEnd
 
 \resumeProjectHeading
-    {\textbf{QuickTax (Taxation Compliance Service System)} | \href{https://qt.com.kh/home-page}{Website}}{Cam Info Services}
+    {\href{https://qt.com.kh/home-page}{QuickTax (Taxation Compliance Service System)}}{\href{https://www.caminfoservices.com/}{Cam Info Services}}
 \resumeItemListStart
     \resumeItem{Developed backend services to handle various tax payments: patent tax, stamp tax, monthly tax (small, medium, large), and annual tax (small, medium, large).}
     \resumeItem{Implemented multi-bank payment processing for secure and reliable tax transactions.}
@@ -171,7 +172,7 @@
 \resumeItemListEnd
 
 \resumeProjectHeading
-    {\textbf{Enterprise Service Platforms}}{Cam Info Services}
+    {\textbf{Enterprise Service Platforms}}{\href{https://www.caminfoservices.com/}{Cam Info Services}}
 \resumeItemListStart
     \resumeItem{Contributed to multiple private/internal projects at Cam Info Services, focusing on backend development, microservices architecture, and database management.}
 \resumeItemListEnd
